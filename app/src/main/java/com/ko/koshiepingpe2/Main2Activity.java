@@ -59,5 +59,6 @@ public class Main2Activity extends AppCompatActivity {
 
     public void send (View v){
         Toast.makeText(this, "Registration Sent", Toast.LENGTH_LONG).show();
+        setTitle("SUMMARY");
     }
 }
